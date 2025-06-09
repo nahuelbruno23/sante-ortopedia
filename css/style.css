@@ -1,0 +1,610 @@
+/*reseteo de web*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*configuracion header*/
+header {
+    background-color: rgb(240, 128, 0);
+}
+
+header h1 {
+    display: flex;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;
+}
+
+header nav ul {
+    background-color: rgb(240, 128, 0) !important;
+}
+
+.dropdown-menu {
+    border: black solid 2px;
+}
+
+/*configuracion main*/
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cotizacion {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.cotizar {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    border: 4px solid rgb(240, 128, 0);
+    padding: 5px;
+}
+
+.cotizar img {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.contacto form {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form label {
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+
+.contacto form input {
+    border: 2px solid rgb(240, 128, 0);
+
+}
+
+.contacto form textarea {
+    padding: 20px;
+    margin-top: 5px;
+    border: 2px solid rgb(240, 128, 0);
+    border-radius: 4px;
+}
+
+.contacto iframe {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.contacto ul {
+    margin: 20px;
+
+}
+
+.contacto ul h3 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    font-family: "Libre Baskerville", serif;
+}
+
+.contacto ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.contacto ul li img {
+    width: 20px;
+    height: auto;
+    margin: 2px;
+
+}
+
+.enviar {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(240, 128, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+section iframe {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.imagen-inicio {
+    width: 65%;
+    height: auto;
+}
+
+.rodillera {
+    text-align: center;
+}
+
+.protesis-guia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.protesis-guia h2 {
+    margin: 15px;
+    font-weight: 700;
+    color: rgb(240, 128, 0);
+    font-size: 60px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.protesis-guia img {
+    width: 60%;
+    height: 500px;
+}
+
+.servicios h2 {
+    margin: 15px;
+    font-weight: 700;
+    color: rgb(240, 128, 0);
+    font-size: 60px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.guia {
+    width: 100%;
+    height: auto;
+}
+
+.servicios img {
+    width: 30px;
+    height: auto;
+    margin: 2px;
+}
+
+.servicios h3 {
+    margin: 2px;
+}
+
+.servicios p {
+    margin: 5px;
+}
+
+
+.bienvenidos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.bienvenidos div {
+    width: 50%;
+}
+
+.bienvenidos div h3 {
+    font-size: 50px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.bienvenidos img {
+    width: 400px;
+    height: 300px;
+}
+
+.destacados h3 {
+    background-color: rgb(240, 128, 0);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.destacados div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.nosostros {
+    text-align: center;
+}
+
+.nosostros h2 {
+    margin: 15px;
+    font-weight: 700;
+    color: rgb(240, 128, 0);
+    font-size: 50px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.nosostros img {
+    width: 50%;
+    height: 350px;
+}
+
+.nosostros p {
+    text-align: left;
+    margin: 15px;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid h2 {
+    background-color: rgb(240, 128, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.card {
+    min-height: 100%;
+    border: 2px solid rgb(240, 128, 0);
+    overflow: hidden;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body p {
+    text-align: left;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    background-color: rgb(240, 128, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.carousel {
+    width: 65%;
+    height: 500px;
+}
+
+.carousel img {
+    height: 500px;
+}
+
+.carousel-indicators button {
+    background-color: rgb(240, 128, 0) !important;
+    border: 2px solid black !important;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 55px;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.grid-bloque img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.titulo {
+    grid-column: span 3;
+}
+
+.titulo h2 {
+    color: white;
+    background-color: rgb(240, 128, 0);
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.imagen {
+    grid-row: span 2;
+    margin: 10px;
+}
+
+.subtitulo {
+    grid-column: span 2;
+}
+
+.subtitulo h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.parrafo {
+    grid-column: span 2;
+}
+
+.parrafo p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+h5 {
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+/*configuracion footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(240, 128, 0);
+    text-align: center;
+}
+
+.red-social {
+    font-size: 20px;
+    color: white;
+}
+
+.red-social img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+/*modificaciones para distintios dispositivos*/
+@media screen and (max-width:450px) {
+    .carousel {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .carousel img {
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 2rem !important;
+    }
+
+    .titulo h2 {
+        color: white;
+        background-color: rgb(240, 128, 0);
+        font-size: 20px !important;
+    }
+
+    .subtitulo h3 {
+        text-align: center;
+        font-size: 16px !important;
+    }
+
+    .imagen {
+        grid-column: span 2;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: 150px !important;
+    }
+
+    .parrafo p {
+        font-size: 12px !important;
+    }
+
+    .destacados h3 {
+        font-size: 20px !important;
+    }
+
+    .protesis-guia img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .cotizar {
+        font-size: 25px;
+
+    }
+
+    .nosostros h2 {
+        font-size: 20px !important;
+    }
+
+    .nosostros img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nosostros p {
+        font-size: 12px !important;
+    }
+
+    .contacto ul h3 {
+        font-size: 30px;
+    }
+
+    .contacto ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .grid-contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 5px;
+    }
+
+    .titulo h2 {
+        font-size: 30px;
+    }
+
+    .subtitulo h3 {
+        font-size: 18px;
+    }
+
+    .imagen {
+        grid-column: span 2;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .parrafo p {
+        font-size: 14px;
+    }
+
+    .destacados h3 {
+        font-size: 30px;
+
+    }
+
+    .protesis-guia img {
+        width: 80%;
+        height: 350px;
+    }
+
+    .protesis-guia h2 {
+        font-size: 35px !important;
+    }
+
+    .servicios h2 {
+        font-size: 35px !important;
+    }
+
+    .nosostros h2 {
+        font-size: 35px;
+    }
+
+    .nosostros img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .carousel {
+        width: 85%;
+        height: auto;
+    }
+
+    .carousel img {
+        height: auto;
+    }
+
+    .grid-contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 5px;
+    }
+
+    .titulo h2 {
+        color: white;
+        background-color: rgb(240, 128, 0);
+        font-size: 30px;
+    }
+
+    .subtitulo h3 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .imagen {
+        grid-column: span 2;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .parrafo p {
+        font-size: 16px;
+    }
+
+    .destacados h3 {
+        font-size: 35px;
+
+    }
+
+    .protesis-guia img {
+        width: 80%;
+        height: 400px;
+    }
+
+    .protesis-guia h2 {
+        font-size: 45px;
+    }
+
+    .servicios h2 {
+        font-size: 45px;
+    }
+
+    .nosostros img {
+        width: 80%;
+        height: 450px;
+    }
+}
