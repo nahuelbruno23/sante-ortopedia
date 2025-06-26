@@ -1,0 +1,487 @@
+@media screen and (max-width: 1180px) {
+    header {
+        nav {
+            div {
+                a {
+                    h1 {
+                        font-size: 2.8rem;
+                    }
+                }
+
+                div {
+                    ul {
+                        li {
+                            .nav-link {
+                                font-size: 20px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .carousel {
+            width: 85%;
+            height: auto;
+
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .grid-contenedor {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 5px;
+
+            .titulo {
+                h2 {
+                    font-size: 35px;
+                }
+            }
+
+            .imagen {
+                grid-row: span 2;
+
+                img {
+                    width: 100%;
+                    height: 350px;
+                }
+            }
+
+            .subtitulo {
+
+                h3 {
+                    text-align: center;
+                    font-size: 30px;
+                }
+            }
+
+            .parrafo {
+                grid-column: span 2;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .destacados {
+            h3 {
+                font-size: 35px;
+            }
+        }
+
+        section {
+            .hero {
+                width: 100%;
+                height: 480px;
+
+                h2 {
+                    margin: 10px !important;
+                    font-size: 40px !important;
+                }
+            }
+        }
+
+        section {
+            .servicios {
+                h2 {
+                    margin: 15px;
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .nosostros {
+            h2 {
+                font-size: 40px;
+
+            }
+
+            img {
+                width: 80%;
+                height: 450px;
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width:800px) {
+    footer {
+        padding: 5px !important;
+
+        .contacto {
+            margin: 10px !important;
+
+            ul {
+                margin: 10px !important;
+
+                h3 {
+
+                    font-size: 30px !important;
+
+                }
+
+                li {
+
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        section {
+            width: 100%;
+            height: auto;
+
+            iframe {
+                display: flex;
+                width: 100%;
+                height: 200px;
+            }
+        }
+    }
+
+    header {
+        nav {
+            div {
+                a {
+                    h1 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .carousel {
+            width: 100%;
+            height: auto;
+
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .grid-contenedor {
+
+            .titulo {
+                h2 {
+                    font-size: 30px !important;
+                }
+            }
+
+            .imagen {
+                img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+            }
+
+            .subtitulo {
+
+                h3 {
+                    text-align: center;
+                    font-size: 22px !important;
+                }
+            }
+
+            .parrafo {
+                p {
+                    font-size: 14px !important;
+                }
+            }
+        }
+
+        .destacados {
+            h3 {
+                font-size: 30px !important;
+            }
+        }
+
+        section {
+            .hero {
+                width: 100% !important;
+                height: 200px !important;
+
+                h2 {
+                    font-size: 25px !important;
+                }
+            }
+        }
+
+        section {
+            .servicios {
+                h2 {
+                    font-size: 30px !important;
+                }
+
+                .guia {
+                    div {
+                        h3 {
+                            font-size: 18px !important;
+                            margin: 2px;
+
+                            img {
+                                width: 25px !important;
+                                height: auto;
+                                margin: 2px;
+
+                            }
+                        }
+
+                        p {
+                            margin: 5px;
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nosostros {
+            h2 {
+                font-size: 20px !important;
+
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            p {
+                font-size: 14px !important;
+                margin: 10px !important;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+
+
+    header {
+        nav {
+            div {
+                a {
+                    h1 {
+                        font-size: 2rem !important;
+                    }
+                }
+
+                div {
+                    ul {
+                        li {
+                            .nav-link {
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .carousel {
+            width: 100%;
+            height: auto;
+
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .grid-contenedor {
+
+            .titulo {
+                h2 {
+                    font-size: 20px !important;
+                }
+            }
+
+            .imagen {
+                img {
+                    width: 100% !important;
+                    height: 150px !important;
+                }
+            }
+
+            .subtitulo {
+
+                h3 {
+                    font-size: 16px !important;
+                }
+            }
+
+            .parrafo {
+                p {
+                    font-size: 12px !important;
+                }
+            }
+        }
+
+        .destacados {
+            h3 {
+                font-size: 16px !important;
+            }
+        }
+
+        section {
+            .hero {
+                width: 100%;
+                height: 400px;
+
+                h2 {
+                    font-size: 20px !important;
+                }
+            }
+        }
+
+        section {
+            .servicios {
+                h2 {
+                    margin: 15px;
+                    font-size: 20px !important;
+                }
+            }
+        }
+
+        .nosostros {
+            h2 {
+                font-size: 20px !important;
+
+            }
+
+            p {
+                font-size: 12 !important;
+                margin: 10px !important;
+            }
+
+            img {
+                width: 95% !important;
+                height: auto;
+            }
+        }
+
+        ul {
+            margin: 10px;
+
+            h3 {
+                font-size: 30px !important;
+            }
+
+            li {
+                font-size: 16px !important;
+
+                img {
+                    width: 15px;
+                    height: auto;
+                    margin: 2px;
+                }
+            }
+        }
+
+        form {
+
+            label {
+                margin-top: 15px;
+                font-size: 20px !important;
+            }
+
+            input {
+                border: 2px solid $color-principal;
+            }
+
+            textarea {
+                padding: 20px;
+                margin-top: 5px;
+                border: 2px solid $color-principal;
+                border-radius: 4px;
+            }
+
+            .enviar {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .container-fluid {
+        h2 {
+            background-color: $color-principal;
+            font-size: 25px !important;
+            color: white;
+            font-weight: 700;
+            margin-top: 5px;
+        }
+    }
+
+    .card {
+        min-height: 100%;
+        border: 2px solid rgb(240, 128, 0);
+        overflow: hidden;
+
+        .img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                text-align: left;
+            }
+
+            .btn {
+                margin-top: auto;
+                background-color: $color-principal;
+                color: white;
+                font-weight: 700;
+                font-size: 10px !important;
+
+                &:hover {
+                    color: black;
+                    transition-duration: 0.5s;
+                }
+            }
+        }
+    }
+
+    .cotizacion {
+
+        .cotizar {
+            font-size: 20px !important;
+
+            img {
+                width: 30px !important;
+                height: 30px !important;
+                margin: 2px;
+            }
+        }
+    }
+}

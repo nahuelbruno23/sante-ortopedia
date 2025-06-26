@@ -1,0 +1,275 @@
+main {
+    .carousel {
+        width: 65%;
+        height: 500px;
+
+        .carousel-indicators {
+            button {
+                background-color: $color-principal !important;
+                border: 2px solid black !important;
+            }
+        }
+
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    height: 500px;
+                }
+            }
+        }
+    }
+
+    .grid-contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+        margin-bottom: 15px;
+
+        .titulo {
+            grid-column: span 2;
+
+            h2 {
+                color: white;
+                background-color: $color-principal;
+                font-size: 40px;
+                font-family: "Libre Baskerville", serif;
+            }
+        }
+
+        .imagen {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            grid-column: span 2;
+
+            img {
+                width: 60%;
+                height: auto;
+                border-radius: 5px;
+            }
+        }
+
+        .subtitulo {
+            grid-column: span 2;
+
+            h3 {
+                text-align: center;
+                font-size: 30px;
+                font-family: "Libre Baskerville", serif;
+            }
+        }
+
+        .parrafo {
+            grid-column: span 2;
+
+            p {
+                font-size: 16px;
+                margin: 10px;
+            }
+        }
+    }
+
+    .destacados {
+        h3 {
+            background-color: $color-principal;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: "Libre Baskerville", serif;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 15px;
+
+        }
+    }
+
+    .nosostros {
+        text-align: center;
+
+        h2 {
+            margin: 15px;
+            font-weight: 700;
+            color: rgb(240, 128, 0);
+            font-size: 50px;
+            font-family: "Libre Baskerville", serif;
+        }
+
+        p {
+            text-align: left;
+            margin: 15px;
+        }
+
+        img {
+            width: 50%;
+            height: 350px;
+        }
+    }
+
+    .whatsapp {
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .contacto {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px;
+
+        ul {
+            margin: 20px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 40px;
+                text-align: left;
+                font-family: "Libre Baskerville", serif;
+            }
+
+            li {
+                list-style: none;
+                font-size: 20px;
+
+                img {
+                    width: 20px;
+                    height: auto;
+                    margin: 2px;
+                }
+            }
+        }
+
+        form {
+            width: 500px;
+            height: auto;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+
+            label {
+                margin-top: 15px;
+                font-size: 25px;
+            }
+
+            input {
+                border: 2px solid $color-principal;
+            }
+
+            textarea {
+                padding: 20px;
+                margin-top: 5px;
+                border: 2px solid $color-principal;
+                border-radius: 4px;
+            }
+
+            .enviar {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: $color-principal;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 20px;
+                font-weight: 700;
+                &:hover {
+                    color: black;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+
+    section {
+        .hero {
+            width: 100%;
+            height: 500px;
+            background-image: url(../image/quirofano-inteligente.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                margin: 15px;
+                font-weight: 700;
+                color: $color-principal;
+                font-size: 50px;
+                font-family: "Libre Baskerville", serif;
+                color: white;
+                text-shadow:
+                    -1px -1px 0 black,
+                    1px -1px 0 black,
+                    -1px 1px 0 black,
+                    1px 1px 0 black;
+            }
+
+            img {
+                width: 60%;
+                height: 500px;
+            }
+        }
+    }
+
+    section {
+        .servicios {
+            h2 {
+                margin: 15px;
+                font-weight: 700;
+                color: $color-principal;
+                font-size: 50px;
+                font-family: "Libre Baskerville", serif;
+            }
+
+            .guia {
+                width: 100%;
+                height: auto;
+
+                div {
+                    transition: transform 0.3s ease, box shadow 0.3s ease;
+                    margin: 10px;
+
+                    &:hover {
+                        transition-duration: 0.5s;
+                        transform: translateY(-5px);
+                        box-shadow: 0 8px 16px rgba (0, 0, 0, 0.5);
+                        background-color: rgb(240, 237, 232);
+                    }
+
+                    h3 {
+                        margin: 2px;
+
+                        img {
+                            width: 30px;
+                            height: auto;
+                            margin: 2px;
+
+                        }
+                    }
+
+                    p {
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .container-fluid{
+        h2{
+            background-color: $color-principal;
+            font-size: 40px;
+            color: white;
+            font-weight: 700;
+            margin-top: 5px;
+        }
+    }
+}

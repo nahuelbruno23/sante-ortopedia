@@ -1,0 +1,28 @@
+header {
+    background-color: $color-principal;
+    nav {
+        div {
+            a {
+                h1 {
+                    display: flex;
+                    color: white;
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    font-family: "Libre Baskerville", serif;
+                }
+            }
+
+            div {
+                ul {
+                    background-color: $color-principal !important;
+
+                    li {
+                        .dropdown-menu {
+                            border: black solid 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

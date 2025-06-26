@@ -1,0 +1,638 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+h5 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.card {
+  min-height: 100%;
+  border: 2px solid rgb(240, 128, 0);
+  overflow: hidden;
+}
+.card .img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card .card-body p {
+  text-align: left;
+}
+.card .card-body .btn {
+  margin-top: auto;
+  background-color: rgb(240, 128, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+.card .card-body .btn:hover {
+  color: black;
+  transition-duration: 0.5s;
+}
+
+.cotizacion {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.cotizacion .cotizar {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  background-color: rgb(240, 128, 0);
+  border-radius: 10px;
+  padding: 5px;
+}
+.cotizacion .cotizar:hover {
+  color: black;
+  transition-duration: 0.5s;
+}
+.cotizacion .cotizar img {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}
+
+header {
+  background-color: rgb(240, 128, 0);
+}
+header nav div a h1 {
+  display: flex;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+}
+header nav div div ul {
+  background-color: rgb(240, 128, 0) !important;
+}
+header nav div div ul li .dropdown-menu {
+  border: black solid 2px;
+}
+
+main .carousel {
+  width: 65%;
+  height: 500px;
+}
+main .carousel .carousel-indicators button {
+  background-color: rgb(240, 128, 0) !important;
+  border: 2px solid black !important;
+}
+main .carousel .carousel-inner .carousel-item img {
+  height: 500px;
+}
+main .grid-contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+main .grid-contenedor .titulo {
+  grid-column: span 2;
+}
+main .grid-contenedor .titulo h2 {
+  color: white;
+  background-color: rgb(240, 128, 0);
+  font-size: 40px;
+  font-family: "Libre Baskerville", serif;
+}
+main .grid-contenedor .imagen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  grid-column: span 2;
+}
+main .grid-contenedor .imagen img {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+main .grid-contenedor .subtitulo {
+  grid-column: span 2;
+}
+main .grid-contenedor .subtitulo h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+}
+main .grid-contenedor .parrafo {
+  grid-column: span 2;
+}
+main .grid-contenedor .parrafo p {
+  font-size: 16px;
+  margin: 10px;
+}
+main .destacados h3 {
+  background-color: rgb(240, 128, 0);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+main .destacados div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+main .nosostros {
+  text-align: center;
+}
+main .nosostros h2 {
+  margin: 15px;
+  font-weight: 700;
+  color: rgb(240, 128, 0);
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+main .nosostros p {
+  text-align: left;
+  margin: 15px;
+}
+main .nosostros img {
+  width: 50%;
+  height: 350px;
+}
+main .whatsapp {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+main .contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+main .contacto ul {
+  margin: 20px;
+}
+main .contacto ul h3 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  font-family: "Libre Baskerville", serif;
+}
+main .contacto ul li {
+  list-style: none;
+  font-size: 20px;
+}
+main .contacto ul li img {
+  width: 20px;
+  height: auto;
+  margin: 2px;
+}
+main .contacto form {
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main .contacto form label {
+  margin-top: 15px;
+  font-size: 25px;
+}
+main .contacto form input {
+  border: 2px solid rgb(240, 128, 0);
+}
+main .contacto form textarea {
+  padding: 20px;
+  margin-top: 5px;
+  border: 2px solid rgb(240, 128, 0);
+  border-radius: 4px;
+}
+main .contacto form .enviar {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(240, 128, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+}
+main .contacto form .enviar:hover {
+  color: black;
+  transition: 0.3s;
+}
+main section .hero {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/quirofano-inteligente.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section .hero h2 {
+  margin: 15px;
+  font-weight: 700;
+  color: rgb(240, 128, 0);
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+main section .hero img {
+  width: 60%;
+  height: 500px;
+}
+main section .servicios h2 {
+  margin: 15px;
+  font-weight: 700;
+  color: rgb(240, 128, 0);
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+main section .servicios .guia {
+  width: 100%;
+  height: auto;
+}
+main section .servicios .guia div {
+  transition: transform 0.3s ease, box shadow 0.3s ease;
+  margin: 10px;
+}
+main section .servicios .guia div:hover {
+  transition-duration: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba 0, 0, 0, 0.5;
+  background-color: rgb(240, 237, 232);
+}
+main section .servicios .guia div h3 {
+  margin: 2px;
+}
+main section .servicios .guia div h3 img {
+  width: 30px;
+  height: auto;
+  margin: 2px;
+}
+main section .servicios .guia div p {
+  margin: 5px;
+}
+main .container-fluid h2 {
+  background-color: rgb(240, 128, 0);
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(240, 128, 0);
+}
+footer .contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+footer .contacto ul {
+  margin: 20px;
+}
+footer .contacto ul h3 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  font-family: "Libre Baskerville", serif;
+  color: black;
+}
+footer .contacto ul li {
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  margin: 5px;
+}
+footer .contacto ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer .contacto ul li a:hover {
+  transition: 0.5s;
+  color: white;
+}
+footer .contacto ul li a img {
+  width: 20px;
+  height: auto;
+  margin: 2px;
+}
+footer section {
+  width: 60%;
+  height: auto;
+}
+footer section iframe {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (max-width: 1180px) {
+  header nav div a h1 {
+    font-size: 2.8rem;
+  }
+  header nav div div ul li .nav-link {
+    font-size: 20px !important;
+  }
+  main .carousel {
+    width: 85%;
+    height: auto;
+  }
+  main .carousel .carousel-inner .carousel-item img {
+    height: auto;
+  }
+  main .grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+  main .grid-contenedor .titulo h2 {
+    font-size: 35px;
+  }
+  main .grid-contenedor .imagen {
+    grid-row: span 2;
+  }
+  main .grid-contenedor .imagen img {
+    width: 100%;
+    height: 350px;
+  }
+  main .grid-contenedor .subtitulo h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  main .grid-contenedor .parrafo {
+    grid-column: span 2;
+  }
+  main .grid-contenedor .parrafo p {
+    font-size: 16px;
+  }
+  main .destacados h3 {
+    font-size: 35px;
+  }
+  main section .hero {
+    width: 100%;
+    height: 480px;
+  }
+  main section .hero h2 {
+    margin: 10px !important;
+    font-size: 40px !important;
+  }
+  main section .servicios h2 {
+    margin: 15px;
+    font-size: 40px;
+  }
+  main .nosostros h2 {
+    font-size: 40px;
+  }
+  main .nosostros img {
+    width: 80%;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 800px) {
+  footer {
+    padding: 5px !important;
+  }
+  footer .contacto {
+    margin: 10px !important;
+  }
+  footer .contacto ul {
+    margin: 10px !important;
+  }
+  footer .contacto ul h3 {
+    font-size: 30px !important;
+  }
+  footer .contacto ul li {
+    font-size: 16px !important;
+  }
+  footer section {
+    width: 100%;
+    height: auto;
+  }
+  footer section iframe {
+    display: flex;
+    width: 100%;
+    height: 200px;
+  }
+  header nav div a h1 {
+    font-size: 2rem;
+  }
+  main .carousel {
+    width: 100%;
+    height: auto;
+  }
+  main .carousel .carousel-inner .carousel-item img {
+    height: auto;
+  }
+  main .grid-contenedor .titulo h2 {
+    font-size: 30px !important;
+  }
+  main .grid-contenedor .imagen img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  main .grid-contenedor .subtitulo h3 {
+    text-align: center;
+    font-size: 22px !important;
+  }
+  main .grid-contenedor .parrafo p {
+    font-size: 14px !important;
+  }
+  main .destacados h3 {
+    font-size: 30px !important;
+  }
+  main section .hero {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  main section .hero h2 {
+    font-size: 25px !important;
+  }
+  main section .servicios h2 {
+    font-size: 30px !important;
+  }
+  main section .servicios .guia div h3 {
+    font-size: 18px !important;
+    margin: 2px;
+  }
+  main section .servicios .guia div h3 img {
+    width: 25px !important;
+    height: auto;
+    margin: 2px;
+  }
+  main section .servicios .guia div p {
+    margin: 5px;
+    font-size: 14px !important;
+  }
+  main .nosostros h2 {
+    font-size: 20px !important;
+  }
+  main .nosostros img {
+    width: 100%;
+    height: auto;
+  }
+  main .nosostros p {
+    font-size: 14px !important;
+    margin: 10px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  header nav div a h1 {
+    font-size: 2rem !important;
+  }
+  header nav div div ul li .nav-link {
+    font-size: 14px !important;
+  }
+  main .carousel {
+    width: 100%;
+    height: auto;
+  }
+  main .carousel .carousel-inner .carousel-item img {
+    height: auto;
+  }
+  main .grid-contenedor .titulo h2 {
+    font-size: 20px !important;
+  }
+  main .grid-contenedor .imagen img {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  main .grid-contenedor .subtitulo h3 {
+    font-size: 16px !important;
+  }
+  main .grid-contenedor .parrafo p {
+    font-size: 12px !important;
+  }
+  main .destacados h3 {
+    font-size: 16px !important;
+  }
+  main section .hero {
+    width: 100%;
+    height: 400px;
+  }
+  main section .hero h2 {
+    font-size: 20px !important;
+  }
+  main section .servicios h2 {
+    margin: 15px;
+    font-size: 20px !important;
+  }
+  main .nosostros h2 {
+    font-size: 20px !important;
+  }
+  main .nosostros p {
+    font-size: 12 !important;
+    margin: 10px !important;
+  }
+  main .nosostros img {
+    width: 95% !important;
+    height: auto;
+  }
+  main ul {
+    margin: 10px;
+  }
+  main ul h3 {
+    font-size: 30px !important;
+  }
+  main ul li {
+    font-size: 16px !important;
+  }
+  main ul li img {
+    width: 15px;
+    height: auto;
+    margin: 2px;
+  }
+  main form label {
+    margin-top: 15px;
+    font-size: 20px !important;
+  }
+  main form input {
+    border: 2px solid rgb(240, 128, 0);
+  }
+  main form textarea {
+    padding: 20px;
+    margin-top: 5px;
+    border: 2px solid rgb(240, 128, 0);
+    border-radius: 4px;
+  }
+  main form .enviar {
+    font-size: 20px !important;
+  }
+  .container-fluid h2 {
+    background-color: rgb(240, 128, 0);
+    font-size: 25px !important;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .card {
+    min-height: 100%;
+    border: 2px solid rgb(240, 128, 0);
+    overflow: hidden;
+  }
+  .card .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card .card-body p {
+    text-align: left;
+  }
+  .card .card-body .btn {
+    margin-top: auto;
+    background-color: rgb(240, 128, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 10px !important;
+  }
+  .card .card-body .btn:hover {
+    color: black;
+    transition-duration: 0.5s;
+  }
+  .cotizacion .cotizar {
+    font-size: 20px !important;
+  }
+  .cotizacion .cotizar img {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 2px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
