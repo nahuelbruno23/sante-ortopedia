@@ -39,7 +39,7 @@ h5 {
 .card .card-body .btn {
   margin-top: auto;
   background-color: rgb(240, 128, 0);
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 16px;
 }
@@ -58,7 +58,7 @@ h5 {
 }
 .cotizacion .cotizar {
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
   text-decoration: none;
@@ -83,7 +83,7 @@ header {
 }
 header nav div a h1 {
   display: flex;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 3.5rem;
   font-weight: 700;
   font-family: "Libre Baskerville", serif;
@@ -117,7 +117,7 @@ main .grid-contenedor .titulo {
   grid-column: span 2;
 }
 main .grid-contenedor .titulo h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgb(240, 128, 0);
   font-size: 40px;
   font-family: "Libre Baskerville", serif;
@@ -150,7 +150,7 @@ main .grid-contenedor .parrafo p {
 }
 main .destacados h3 {
   background-color: rgb(240, 128, 0);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   text-align: center;
   font-family: "Libre Baskerville", serif;
@@ -233,7 +233,7 @@ main .contacto form .enviar {
   margin-top: 20px;
   padding: 10px;
   background-color: rgb(240, 128, 0);
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 4px;
   font-size: 20px;
@@ -262,7 +262,7 @@ main section .hero h2 {
   color: rgb(240, 128, 0);
   font-size: 50px;
   font-family: "Libre Baskerville", serif;
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 main section .hero img {
@@ -304,7 +304,7 @@ main section .servicios .guia div p {
 main .container-fluid h2 {
   background-color: rgb(240, 128, 0);
   font-size: 40px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin-top: 5px;
 }
@@ -341,7 +341,7 @@ footer .contacto ul li a {
 }
 footer .contacto ul li a:hover {
   transition: 0.5s;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 footer .contacto ul li a img {
   width: 20px;

@@ -30,7 +30,7 @@ main {
             grid-column: span 2;
 
             h2 {
-                color: white;
+                color: $color-secundario;
                 background-color: $color-principal;
                 font-size: 40px;
                 font-family: "Libre Baskerville", serif;
@@ -73,7 +73,7 @@ main {
     .destacados {
         h3 {
             background-color: $color-principal;
-            color: white;
+            color: $color-secundario;
             font-size: 40px;
             text-align: center;
             font-family: "Libre Baskerville", serif;
@@ -172,7 +172,7 @@ main {
                 margin-top: 20px;
                 padding: 10px;
                 background-color: $color-principal;
-                color: white;
+                color: $color-secundario;
                 border: none;
                 border-radius: 4px;
                 font-size: 20px;
@@ -205,7 +205,7 @@ main {
                 color: $color-principal;
                 font-size: 50px;
                 font-family: "Libre Baskerville", serif;
-                color: white;
+                color: $color-secundario;
                 text-shadow:
                     -1px -1px 0 black,
                     1px -1px 0 black,
@@ -267,7 +267,7 @@ main {
         h2{
             background-color: $color-principal;
             font-size: 40px;
-            color: white;
+            color: $color-secundario;
             font-weight: 700;
             margin-top: 5px;
         }

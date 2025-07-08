@@ -30,7 +30,7 @@ footer {
                     color:black;
                     &:hover{
                         transition: 0.5s;
-                        color:white;
+                        color:$color-secundario;
                     }
                     img {
                         width: 20px;
