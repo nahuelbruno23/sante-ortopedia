@@ -169,7 +169,7 @@ main {
         .hero {
             width: 100%;
             height: 500px;
-            background-image: url(../image/quirofano-inteligente.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.26)) ,url(../image/quirofano-inteligente.jpg);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
